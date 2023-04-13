@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<!--Style-->
+<style>
+    body {
+        font-family: 'Raleway', sans-serif;
+        margin: 0 auto;
+    }
+
+    .wrapper {
+        height: 100vh;
+        width: 100%;
+        display: inline-block;
+        background-color: black;
+        max-height: 100%;
+        background-image: url(https://sun9-37.userapi.com/impg/0F2GUnkgISG3itcpYL6z_0RK0SW3Um4JcMyt1Q/XGChi-QTvMY.jpg?size=1919x1079&quality=96&sign=2e52e347bfea74b62bdc9c527cb281ed&type=album);
+    }
+
+    .main-text {
+        padding-top: 20%;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 50;
+        color: white;
+    }
+
+    .footer {
+        padding-top: 12%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-text {
+        color: white;
+        font-size: 15px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 64px;
+    }
+
+    .ds-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 250px;
+        outline: 3px solid;
+        outline-color: white;
+        transition: outline-color .3s linear;
+        cursor: pointer;
+    }
+
+    .ds-icon:hover {
+        outline-color: rgb(16, 119, 229);
+        opacity: 1;
+    }
+
+    .steam-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 250px;
+        outline: 3px solid;
+        outline-color: white;
+        transition: outline-color .3s linear;
+        cursor: pointer;
+    }
+
+    .steam-icon:hover {
+        outline-color: rgb(16, 119, 229);
+        opacity: 1;
+    }
+</style>
+
+<!--Body-->
+<body>
+    <!--Wrapper-->
+    <div class="wrapper">
+        <div class="intro-text">
+            <h1 class="main-text">Добро пожаловать на<br>Rawe Metrostroi</h1>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <div class="icons">
+                <a href="https://discord.gg/5CpRB7XQ3J"><img class="ds-icon" src="https://sun9-72.userapi.com/impg/DC5jkO79obbrrzVMves8BBpv38IX1MlFCQyZLg/n8XPn_0mEMw.jpg?size=512x512&quality=96&sign=0347c533dd135c6dba3865967cc5b5a6&type=album"></a>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2907867788"><img class="steam-icon" src="https://sun9-48.userapi.com/impg/Ccw5qDMjiuZvIeu0g5lEDVGiw3sW1SghE_PneQ/XiicL2jsBTw.jpg?size=512x512&quality=96&sign=ccead25380cde683977ed05fd1e188f8&type=album"></a>
+                <a href="https://vk.com/rawe.metrostroi"><img class="steam-icon" src="https://sun9-69.userapi.com/impg/uUgPZFvmZWvqemg_5GrxwUKCLpOKSIBPrh0ppQ/DF5tZdDDC50.jpg?size=512x512&quality=96&sign=dc74282365c5d8cf22d9aa831773b6b7&type=album"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
